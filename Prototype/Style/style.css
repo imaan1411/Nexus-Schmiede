@@ -35,7 +35,6 @@ footer {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-
 .menuDLA:hover {
   background-color: #0099cc;
 }
@@ -54,7 +53,7 @@ footer {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin-bottom: 25px;
   cursor: pointer;
-}
+  }
 .picture:hover {
   background-color: #66ff66;
 }
@@ -64,22 +63,31 @@ footer {
   margin-top: 0px;
 }
 
-
-
-
-
-.contact ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0px 120px;
+  }
 }
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+@media only screen and (min-width: 1600px) {
+  body {
+    margin: 0px 200px;
+  }
+}
+
+.aboutText {
+  margin: 0px; !important
+}
+
+.icons {
+  margin: 0px 5px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  background: green;
+  border-radius: 50px;
 }
 
 .modal {
@@ -118,25 +126,3 @@ footer {
   .modal-content {
     width: 100%;
   }
-
-
-
-
-/*
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
- .menu li:hover {
-  background-color: #0099cc;
-}
-*/
