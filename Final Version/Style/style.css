@@ -28,6 +28,13 @@ footer {
   padding: 15px;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #424242;
+}
 
 .menuDLA {
   padding: 8px;
@@ -86,6 +93,16 @@ footer {
   color: #ffffff;
   margin-bottom: 25px;
   padding: 0px !important;
+}
+
+.detailImage {
+  color: #ffffff;
+  margin-bottom: 25px;
+  padding: 0px !important;
+}
+
+.detailImage:hover {
+  opacity: 0.5;
 }
 
 .videoDescription {
