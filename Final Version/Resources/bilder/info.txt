@@ -1,2 +1,4 @@
 Benenne die Bilder nach Zahlen, der Reihe nach die du willst.
-1.jpg ist das Banner Bild 
+1.jpg ist das Banner Bild
+
+Die Bilder werden dann der Reihe nach von links nach rechts aufgefüllt
