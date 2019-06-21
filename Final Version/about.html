@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nexus Schmiede</title>
+    <link rel="stylesheet" href="Style/fontawesome-free-5.9.0-web/fontawesome-free-5.9.0-web/css/all.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/grid.css">
+</head>
+<body>
+  <header>
+    <div class="row">
+      <div class="col-10">
+        <h1>Nexusschmiede</h1>
+      </div>
+      <div class="col-2">
+        <div class="logo">
+          <p>logo</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="row">
+    <nav>
+      <a href="index.html">
+        <div class="col-3 col-s-3 menuDLA"><i class="fas fa-home icons"></i>Home</div>
+      </a>
+      <a href="videoBlog.html">
+        <div class="col-3 col-s-3 menuDLA"><i class="fas fa-video icons"></i>Video</div>
+      </a>
+      <a href="about.html">
+        <div class="col-6 col-s-6 menuDLA selected"><i class="far fa-address-card icons"></i>About</div>
+      </a>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-s-12">
+      <h2 class="title">Team</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6 col-s-12 images">
+      <div class="aboutImage">
+        <img id="aboutImage" src="Resources/bilder/about.jpg"  alt="Picture">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+    <script src="Script\script.js">bildanschauen(aboutImage);</script>
+
+
+    <div class="col-6 col-s-12">
+      <h3>About</h3>
+      <aside class="aboutText">
+        <p>
+          Liebe Cosplay Fans <br> <br>
+          Wir sind Angela und Damian. Zwei Liebende aus der Schweiz die viel Interesse an Cosplay haben.
+          Fühlt euch auf unserer selbstprogrammierten Webseite wie zuhause. Ihr findet unsere aktuellsten Projekte und Contests an denen wir teilgenommen haben.
+          Falls ihr euch mal mit uns austauschen wollt, schickt uns doch einen Nachricht. Den Kontakt findet ihr unten :)
+        </p>
+      </aside>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6 col-s-12">
+      <h3>Kontakt</h3>
+      <p>
+        Angela Teufer: angela.teufer@gmail.com <br>
+        Damian Lackner: damian.lackner@gmail.com
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <i class="fab fa-twitter fa-2x icons"></i>
+    <i class="fab fa-instagram fa-2x icons"></i>
+    <i class="fab fa-youtube fa-2x icons"></i>
+    <i class="fab fa-twitch fa-2x icons"></i>
+    <p>Copyright (c) 2019 by Nexusschmiede Corporation. All Rights Reserved. </p>
+  </footer>
+</body>
