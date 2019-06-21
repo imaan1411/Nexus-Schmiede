@@ -145,10 +145,9 @@ a:hover {
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
-  background: green;
-  border-radius: 50px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
 }
 
 .modal {

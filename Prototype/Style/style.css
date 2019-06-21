@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #9933cc;
+  background-color: #C9C7C7;
   color: #ffffff;
   padding: 15px;
 }
@@ -21,41 +21,64 @@ nav {
 }
 
 footer {
-  background-color: #0099cc;
+  background-color: #C9C7C7;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
   padding: 15px;
 }
 
+
 .menuDLA {
   padding: 8px;
-  background-color: #33b5e5;
+  background-color: #000000;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menuDLA:hover {
-  background-color: #0099cc;
+  background-color: #424242;
 }
 
 .selected {
-  background-color: #0099cc;
+  background-color: #424242;
 }
 
 .title {
   text-align: center;
 }
 
+.mainImage {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.mainImage img {
+  width: 100%;
+}
+
+.images {
+  width: 100%;
+  overflow: hidden;
+  height: 20rem;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
+
 .picture {
-  background-color: #00e600;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin-bottom: 25px;
   cursor: pointer;
+  padding: 0px !important;
   }
+
 .picture:hover {
-  background-color: #66ff66;
+  opacity: 0.6;
 }
 
 .videoDescription {
@@ -125,4 +148,13 @@ footer {
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+  }
+
+  .mainImage {
+    height: 100%;
+  }
+
+  .picture {
+    box-shadow: none;
+    height: 100%;
   }
